@@ -1,0 +1,2 @@
+# PolyFaces
+Polygon Reduction Algorithm

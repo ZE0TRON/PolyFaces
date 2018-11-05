@@ -8,7 +8,7 @@ The update the faces accordingly.
 Still under progress (Works but need to improve the face updating algorithm)
 
 ## Usage
-g++ main.c -o poly
+g++ main.cpp -o poly
 ./poly <input_file> <output_file> <reduction_percentage>
 
 Works with .obj files if your mesh is not in .obj form convert it to obj first then run it.

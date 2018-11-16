@@ -10,9 +10,10 @@
 #include <set>
 using namespace std;
 
+// returns 3d distance between two nodes
 float distanceCalc(Node *a, Node *b)
 {
-    return sqrt(pow((a->x - b->x), 2) + pow((a->y - b->y), 2) + pow((a->z - b->z), 2)); // 3d distance between two points.
+    return sqrt(pow((a->x - b->x), 2) + pow((a->y - b->y), 2) + pow((a->z - b->z), 2));
 }
 
 void updateNeighbors(Node *a, int deletedIndex)
